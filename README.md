@@ -1,6 +1,6 @@
-# 💹 Machine Learning for Finance (PhD) — Fall 2026
+# 💹 Machine Learning for Finance — Fall 2026
 
-This repository contains materials for the PhD-level course **Machine Learning for Finance**. The course studies modern machine-learning methods for financial prediction and decision-making, with applications to empirical asset pricing, market microstructure, portfolio construction, graph learning, reinforcement learning, generative models, large language models, and responsible AI.
+This repository contains materials for the postgraduate-level course **Machine Learning for Finance**. The course studies modern machine-learning methods for financial prediction and decision-making, with applications to empirical asset pricing, market microstructure, portfolio construction, graph learning, reinforcement learning, generative models, large language models, and responsible AI.
 
 ---
 
@@ -12,7 +12,7 @@ This repository contains materials for the PhD-level course **Machine Learning f
   - 2 hours of instructor lecture
   - 30 minutes of student presentation
   - 10–15 minutes of instructor-led discussion
-- **One formal homework:** Asset Pricing
+- **One formal assignment:** Cross-Sectional Returns
   - Released after **Lecture 4**
   - Due after **Lecture 10**
 - **Lecture 12:** Industry guest lecture / practitioner perspectives
@@ -39,13 +39,13 @@ Fall 2026 lecture files will be added progressively during the semester.
 | **Lec 1** | **Introduction to Financial Machine Learning** — overview, information sets, functional forms, and practical challenges in financial prediction | — |
 | **Lec 2** | **Empirical Asset Pricing I** — data, experimental design, linear and penalized models, and dimension reduction | — |
 | **Lec 3** | **Empirical Asset Pricing II** — trees, ensembles, neural networks, nonlinear models, and alternative data / representation learning | — |
-| **Lec 4** | **High-Frequency Prediction** — limit order books, sampling, order flow, universality, cross-impact, and spatio-temporal modeling | **P1: Nonlinear / Representation Learning in Asset Pricing**; Asset Pricing HW released |
+| **Lec 4** | **High-Frequency Prediction** — limit order books, sampling, order flow, universality, cross-impact, and spatio-temporal modeling | **P1: Nonlinear / Representation Learning in Asset Pricing**; Cross-Sectional Returns Assignment released |
 | **Lec 5** | **Optimal Portfolios** — plug-in vs integrated estimation, covariance estimation, max-Sharpe regression, and transaction costs | **P2: High-Frequency / Microstructure ML** |
 | **Lec 6** | **Graph Machine Learning for Finance** — graph representations, GNNs, financial networks, cross-asset dependence, and covariance / volatility applications | **P3: Portfolio Construction / Decision-Focused ML** |
 | **Lec 7** | **Reinforcement Learning in Finance** — RL basics, optimal execution, market making, and sequential decision-making | **P4: Graph ML for Asset Pricing** |
 | **Lec 8** | **Generative AI for Finance** — GANs, VAEs, diffusion models, synthetic backtesting, Tail-GAN / MARS, and pitfalls | — |
 | **Lec 9** | **Large Language Models for Finance** — sentiment, financial text, report generation, QA / chatbots, reasoning, applications, and challenges | **P5: Generative Finance** |
-| **Lec 10** | **Interpretability & Ethics / Responsible ML** — LIME / SHAP, clustering, t-SNE, bias / fairness, and compliance | **P6: LLMs / Foundation Models in Finance**; Asset Pricing HW due after class |
+| **Lec 10** | **Interpretability & Ethics / Responsible ML** — LIME / SHAP, clustering, t-SNE, bias / fairness, and compliance | **P6: LLMs / Foundation Models in Finance**; Cross-Sectional Returns Assignment due after class |
 | **Lec 11** | **Advanced Topics** — transfer learning, federated learning, microstructure / statistical arbitrage, backtesting pipelines, and selected advanced topics | — |
 | **Lec 12** | **Industry Guest Lecture / Practitioner Perspectives** | Guest speaker discussion |
 | **Lec 13** | **Final Research Presentations** | Student final project presentations |
@@ -80,11 +80,34 @@ Lopez-Lira, A., & Tang, Y. (2026). *Can ChatGPT Forecast Stock Price Movements? 
 
 ---
 
-## 🎤 Presentation Format
+## 🧮 Assessment
 
-Each group has approximately **30 minutes** for its presentation, followed by **10–15 minutes** of instructor-led discussion.
+| Component | Weight |
+|---|---:|
+| Class Participation & Discussion | **10%** |
+| Cross-Sectional Returns Assignment | **20%** |
+| Paper Presentation & Discussion | **20%** |
+| Final Research Project + Presentation | **50%** |
+| **Total** | **100%** |
 
-Suggested presentation structure:
+### 🧪 Cross-Sectional Returns Assignment — 20%
+
+Students apply linear and nonlinear machine-learning models to predict U.S. equity returns. Model performance should be compared using appropriate out-of-sample evaluation, model comparison, and economic interpretation or evaluation.
+
+- **Released:** after Lecture 4
+- **Due:** after Lecture 10
+- This is the only formal assignment in the course.
+
+### 📚 Paper Presentation & Discussion — 20%
+
+Each group presents one assigned research paper related to a course topic.
+
+- **30-minute student presentation**
+- **10–15-minute instructor-led discussion**
+
+Presentations should cover the research question and motivation, methodology, empirical design and data, main results, limitations, and possible extensions. The goal is to critically evaluate the paper's contribution rather than simply summarize it. Students are not expected to teach the methodology from scratch because the relevant foundations are generally covered in the preceding lecture.
+
+A suggested 30-minute structure is:
 
 1. **5 min** — Financial question and motivation
 2. **5–7 min** — Data and empirical setup
@@ -92,21 +115,28 @@ Suggested presentation structure:
 4. **5 min** — Main empirical results
 5. **5 min** — Critique and possible extensions
 
-Students are not expected to teach the full methodology from scratch. The relevant foundations are covered in the preceding lecture; presentations should focus on understanding, evaluating, and extending the paper.
+### 🚀 Final Research Project — 50%
 
----
+Students conduct a research-style project on a topic related to machine learning in finance. Possible directions include:
 
-## 🧪 Asset Pricing Homework
+- asset pricing and portfolio machine learning,
+- high-frequency prediction, trading, and reinforcement learning,
+- graph machine learning for finance,
+- generative models for financial data,
+- large language models in finance, or
+- another instructor-approved topic.
 
-The course retains one formal homework, released after Lecture 4 and due after Lecture 10. It covers a complete empirical workflow:
+Each project should formulate a clear research question and provide at least one methodological extension, careful empirical comparison, or new empirical finding.
 
-- data preparation,
-- model estimation,
-- validation,
-- out-of-sample prediction, and
-- economic evaluation.
+**Deliverables:**
 
-The extended submission window is designed to keep the workload manageable alongside paper presentations and the final research project.
+- code or reproducible analysis,
+- final report, and
+- in-class presentation.
+
+### 🗣️ Class Participation & Discussion — 10%
+
+Active participation in lectures, paper discussions, and class activities is expected throughout the course.
 
 ---
 
