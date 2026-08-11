@@ -1,6 +1,6 @@
 # 💹 Machine Learning for Finance — Fall 2026
 
-This repository contains materials for the postgraduate-level course **Machine Learning for Finance**. The course studies modern machine-learning methods for financial prediction and decision-making, with applications to empirical asset pricing, market microstructure, portfolio construction, graph learning, reinforcement learning, generative models, large language models, and responsible AI.
+This repository contains materials for the postgraduate-level course **Machine Learning for Finance**. The course studies modern machine-learning methods for financial prediction and decision-making, with applications to empirical asset pricing, market microstructure, portfolio construction, reinforcement learning, generative models, large language models, and responsible AI.
 
 ---
 
@@ -11,7 +11,7 @@ This repository contains materials for the postgraduate-level course **Machine L
 - Presentation weeks include approximately:
   - 2 hours of instructor lecture
   - 30 minutes of student presentation
-  - 10–15 minutes of instructor-led discussion
+  - 15 minutes of instructor-led discussion
 - **One formal assignment:** Cross-Sectional Returns
   - Released after **Lecture 4**
   - Due after **Lecture 10**
@@ -43,10 +43,10 @@ Fall 2026 lecture files will be added progressively during the semester.
 | **Lec 5** | **Optimal Portfolios** — plug-in vs integrated estimation, covariance estimation, max-Sharpe regression, and transaction costs | **P2: High-Frequency / Microstructure ML** |
 | **Lec 6** | **Graph Machine Learning for Finance** — graph representations, GNNs, financial networks, cross-asset dependence, and covariance / volatility applications | **P3: Portfolio Construction / Decision-Focused ML** |
 | **Lec 7** | **Reinforcement Learning in Finance** — RL basics, optimal execution, market making, and sequential decision-making | **P4: Graph ML for Asset Pricing** |
-| **Lec 8** | **Generative AI for Finance** — GANs, VAEs, diffusion models, synthetic backtesting, Tail-GAN / MARS, and pitfalls | — |
+| **Lec 8** | **Generative AI for Finance** — VAEs, GANs, diffusion models, synthetic backtesting, Tail-GAN, and pitfalls | — |
 | **Lec 9** | **Large Language Models for Finance** — sentiment, financial text, report generation, QA / chatbots, reasoning, applications, and challenges | **P5: Generative Finance** |
-| **Lec 10** | **Interpretability & Ethics / Responsible ML** — LIME / SHAP, clustering, t-SNE, bias / fairness, and compliance | **P6: LLMs / Foundation Models in Finance**; Cross-Sectional Returns Assignment due after class |
-| **Lec 11** | **Advanced Topics** — transfer learning, federated learning, microstructure / statistical arbitrage, backtesting pipelines, and selected advanced topics | — |
+| **Lec 10** | **Interpretability & Ethics / Responsible ML** — LIME / SHAP, clustering, t-SNE | **P6: LLMs / Foundation Models in Finance**; Cross-Sectional Returns Assignment due after class |
+| **Lec 11** | **Advanced Topics** — transfer learning, statistical arbitrage, backtesting pipelines, and selected advanced topics | — |
 | **Lec 12** | **Industry Guest Lecture / Practitioner Perspectives** | Guest speaker discussion |
 | **Lec 13** | **Final Research Presentations** | Student final project presentations |
 
@@ -123,8 +123,7 @@ Students conduct a research-style project on a topic related to machine learning
 - high-frequency prediction, trading, and reinforcement learning,
 - graph machine learning for finance,
 - generative models for financial data,
-- large language models in finance, or
-- another instructor-approved topic.
+- large language models in finance.
 
 Each project should formulate a clear research question and provide at least one methodological extension, careful empirical comparison, or new empirical finding.
 
